@@ -7,8 +7,9 @@ function cliqueSoma() {
 
     let soma = num1 + num2;
     console.log("O resultado da soma é: ", soma);
-    alert('O resultado da Soma é:  ' + soma)
-    appendToHistory(num1, num2, "+", soma);
+    
+    document.getElementById("resultado").innerHTML = soma;
+    
 
 }
 
@@ -21,7 +22,8 @@ function cliqueSub() {
 
     let sub = num1 - num2;
     console.log("O resultado da Subtração é: ", sub);
-    alert('O resultado da Subtração é:  ' + sub)
+
+    document.getElementById("resultado").innerHTML = sub;
     
 }
 
@@ -34,7 +36,8 @@ function cliqueDiv() {
 
     let div = num1 / num2;
     console.log("O resultado da Divisão é: ", div);
-    alert('O resultado da Divisão é:  ' + div)
+
+    document.getElementById("resultado").innerHTML = div;
 }
 
 function cliqueMult() {
@@ -46,5 +49,6 @@ function cliqueMult() {
 
     let mult = num1 * num2;
     console.log("O resultado da Multiplicação é: ", mult);
-    alert('O resultado da Multiplicação é:  ' + mult)
+
+    document.getElementById("resultado").innerHTML = mult;
 }
