@@ -8,6 +8,7 @@ function cliqueSoma() {
     let soma = num1 + num2;
     console.log("O resultado da soma é: ", soma);
     alert('O resultado da Soma é:  ' + soma)
+    appendToHistory(num1, num2, "+", soma);
 
 }
 
