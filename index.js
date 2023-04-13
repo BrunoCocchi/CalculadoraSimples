@@ -7,6 +7,8 @@ function cliqueSoma() {
 
     let soma = num1 + num2;
     console.log("O resultado da soma é: ", soma);
+    alert('O resultado da Soma é:  ' + soma)
+
 }
 
 function cliqueSub() {
@@ -18,6 +20,8 @@ function cliqueSub() {
 
     let sub = num1 - num2;
     console.log("O resultado da Subtração é: ", sub);
+    alert('O resultado da Subtração é:  ' + sub)
+    
 }
 
 function cliqueDiv() {
@@ -29,6 +33,7 @@ function cliqueDiv() {
 
     let div = num1 / num2;
     console.log("O resultado da Divisão é: ", div);
+    alert('O resultado da Divisão é:  ' + div)
 }
 
 function cliqueMult() {
@@ -40,4 +45,5 @@ function cliqueMult() {
 
     let mult = num1 * num2;
     console.log("O resultado da Multiplicação é: ", mult);
+    alert('O resultado da Multiplicação é:  ' + mult)
 }
